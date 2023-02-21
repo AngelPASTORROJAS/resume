@@ -8,8 +8,15 @@ class TitreSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RichText(
-        text: TextSpan(
-            text: titre,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)));
+      text: TextSpan(
+        text: titre,
+        style: const TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 22,
+          color: Colors.blue,
+          letterSpacing: 2,
+        ),
+      ),
+    );
   }
 }

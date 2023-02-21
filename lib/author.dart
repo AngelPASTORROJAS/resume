@@ -1,11 +1,10 @@
 import 'package:flutter/widgets.dart';
 
-// ignore: must_be_immutable
 class Author extends StatelessWidget {
-  Author({this.nom, this.prenom, super.key});
+  const Author({this.nom, this.prenom, super.key});
 
-  String? prenom;
-  String? nom;
+  final String? prenom;
+  final String? nom;
 
   @override
   Widget build(BuildContext context) {
